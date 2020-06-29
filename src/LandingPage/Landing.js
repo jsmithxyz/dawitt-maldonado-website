@@ -7,10 +7,16 @@ class Landing extends React.Component {
     return (
       <div className='landing-container'>
         <div className='landing-content'>
-          <header className='landing-header animate__animated animate__slideInDown'>
-            Dawitt/Maldonado Studios
-          </header>
-          <hr className='landing-line-break'></hr>
+          <div className='landing-header-container'>
+            <header className='landing-header animate__animated animate__slideInDown'>
+              dawit
+              <br />
+              maldonado
+              <br />
+              studios
+            </header>
+            <div className='header-box'></div>
+          </div>
           <div className='landing-nav'>
             <ul className='nav-list'>
               <li className='nav-item'>

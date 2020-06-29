@@ -3,11 +3,7 @@ import Landing from "./LandingPage/Landing";
 import "./App.css";
 
 function App() {
-  return (
-    <div className='App'>
-      <Landing />
-    </div>
-  );
+  return <Landing />;
 }
 
 export default App;
